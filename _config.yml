@@ -1,7 +1,7 @@
 permalink: pretty
 markdown: rdiscount
 prose:
-  rooturl: '_posts'
+  # rooturl: '_posts'
   siteurl: 'http://edrex.github.io/'
   relativeLinks: 'http://edrex.github.io/links.jsonp'
   media: 'media'
