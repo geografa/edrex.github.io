@@ -1,6 +1,8 @@
 permalink: pretty
 markdown: rdiscount
 baseurl: "http://edrex.github.io"
+title: "French Pressicus-Technicalus"
+subtitle: "the common cafe nerd"
 prose:
   # rooturl: '_posts'
   siteurl: 'http://edrex.github.io'
