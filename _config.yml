@@ -1,5 +1,6 @@
 permalink: pretty
 markdown: rdiscount
+baseurl: "http://edrex.github.io"
 prose:
   # rooturl: '_posts'
   siteurl: 'http://edrex.github.io'
