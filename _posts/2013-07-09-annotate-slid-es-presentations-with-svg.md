@@ -1,7 +1,7 @@
 ---
 layout: blog
 category: blog
-published: false
+published: true
 ---
 
 Today I experimented with annotating [slid.es](http://slid.es) presentations with SVG. It's *almost* there.
