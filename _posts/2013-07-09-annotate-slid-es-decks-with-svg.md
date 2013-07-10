@@ -2,11 +2,10 @@
 layout: blog
 category: blog
 published: true
+title: Annotate slid.es decks with SVG
 ---
 
-Today I experimented with annotating [slid.es](http://slid.es) presentations with SVG. It's *almost* there.
-
-Following is a rough guide, for the adventurous, along with issues I found along the way.
+Today I experimented with annotating [slid.es](http://slid.es) presentations with SVG. It's *almost* there. Following is a rough guide, for the adventurous, along with issues I found along the way.
 
 **Objective:** call out features of my slides using custom floating graphics. 
 
