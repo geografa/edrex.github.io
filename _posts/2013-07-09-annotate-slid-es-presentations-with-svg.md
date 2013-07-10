@@ -1,4 +1,6 @@
 ---
+layout: blog
+category: blog
 published: false
 ---
 
@@ -15,8 +17,6 @@ Today I experimented with annotating [slid.es](http://slid.es) presentations wit
 ## Caveats
 
  * You can't upload SVG using slid.es image upload form (I think it needs to be added to an extension whitelist)
- 
-
 
 ## How I got here
 
