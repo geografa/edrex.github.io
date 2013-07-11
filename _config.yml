@@ -1,5 +1,5 @@
-name: "Doohicky"
-description: "a site about nothing"
+name: "French Pressicus-Technicalus"
+subtitle: "the common cafe nerd"
 signature: "Eric Drechsel, Investigative Nerd"
 pygments: true
 permalink: pretty
@@ -12,3 +12,8 @@ prose:
   siteurl: 'http://edrex.github.io'
   relativeLinks: 'http://edrex.github.io/links.jsonp'
   media: 'media'
+me:
+  name: Eric Drechsel
+  profession: Investigative Nerd
+  github: edrex
+  twitter: edrex
