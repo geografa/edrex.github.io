@@ -1,8 +1,8 @@
 ---
 published: true
 title: Studies
-permalink: studies
-layout: post
+layout: default
+date: '2013-07-11'
 ---
 
 ## Courses
