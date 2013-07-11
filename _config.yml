@@ -4,5 +4,5 @@ pygments: true
 permalink: pretty
 prose:
   siteurl: 'http://edrex.github.io'
-  relativeLinks: 'http://edrex.github.io/links.json?dfd'
+  relativeLinks: 'http://edrex.github.io/links.json'
   media: 'media'
