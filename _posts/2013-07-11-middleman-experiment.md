@@ -1,6 +1,6 @@
 ---
 published: false
-layout: default
+layout: post
 ---
 
 I made this blog over the last few days using the basic Jekyll support built into Github pages. I like that I can push content or edit on line and the built site will always be up to date. I also like that the build infrastructure is hosted by someone else, and I don't have to worry about it bitrotting much.
