@@ -1,6 +1,10 @@
 ---
+published: true
+---
+
+---
 title: Studies
-permalink: studies
+permalink: /studies
 layout: post
 ---
 
