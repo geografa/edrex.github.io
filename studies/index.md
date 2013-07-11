@@ -1,10 +1,7 @@
 ---
 published: true
----
-
----
 title: Studies
-permalink: /studies
+permalink: studies
 layout: post
 ---
 
@@ -24,4 +21,3 @@ Hit me up if you'd like to borrow something
 ### Physics
 
  * Introduction to Elementary Particles, 2nd ed., [David Griffiths](http://academic.reed.edu/physics/faculty/griffiths.html)
- 
