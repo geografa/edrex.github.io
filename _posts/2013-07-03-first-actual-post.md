@@ -1,7 +1,6 @@
 ---
 published: true
-layout: blog
-category: blog
+layout: post
 ---
 
 ## [Markdown](http://daringfireball.net/projects/markdown/)!
