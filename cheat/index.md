@@ -1,4 +1,16 @@
 ---
+title: Cheat sheets
+layout: default
 ---
 
-## A New Post\n\nEnter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+For my own benefit, links to crib notes for various resources
+
+ * [tmux cheatsheet](https://gist.github.com/andreyvit/2921703)
+
+
+Working with this site:
+
+ * [jekyll](http://jekyllrb.com/docs/home/)
+ * [prose.io](http://prose.io/)
+ * [slid.es](https://slid.es)
+ 
