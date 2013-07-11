@@ -7,5 +7,7 @@ prose:
   relativeLinks: 'http://edrex.github.io/links.json'
   media: 'media'
 me:
+  name: Eric Drechsel
+  profession: Science Hacker
   github: edrex
   twitter: edrex
