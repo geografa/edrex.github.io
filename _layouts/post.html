@@ -1,9 +1,11 @@
 ---
+published: true
 layout: default
 ---
 
 <div class="post">
-{{ content }}
+  <div class="description">{{ description }}</div>
+  <div class="content">{{ content }}</div>
 </div>
 
 <p class="meta">{{ page.date | date_to_string }}</p>
