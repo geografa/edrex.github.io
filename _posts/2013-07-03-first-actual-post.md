@@ -1,11 +1,11 @@
 ---
-title: First Actual Post!
 published: true
-layout: post
+layout: blog
+category: blog
 ---
 
 ## [Markdown](http://daringfireball.net/projects/markdown/)!
 
 ![Sheeps!](/media/4BPDhRM.jpg)
 
-More!
+[Annotate slid.es decks with SVG](/2013/07/09/annotate-slid-es-decks-with-svg/)
