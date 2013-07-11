@@ -1,2 +1,5 @@
-name: Your New Jekyll Site
+name: "French Pressicus-Technicalus"
+subtitle: "the common cafe nerd"
 pygments: true
+permalink: pretty
+layout: default
