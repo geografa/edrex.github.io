@@ -2,4 +2,7 @@ name: "French Pressicus-Technicalus"
 subtitle: "the common cafe nerd"
 pygments: true
 permalink: pretty
-layout: default
+prose:
+  siteurl: 'http://edrex.github.io'
+  relativeLinks: 'http://edrex.github.io/links.jsonp'
+
