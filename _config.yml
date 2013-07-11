@@ -3,7 +3,7 @@ subtitle: "the common cafe nerd"
 pygments: true
 permalink: pretty
 prose:
-  siteurl: 'http://edrex.github.io'
+  # siteurl: 'http://edrex.github.io'
   relativeLinks: 'http://edrex.github.io/links.json'
   media: 'media'
 me:
