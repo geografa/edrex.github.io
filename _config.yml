@@ -6,3 +6,6 @@ prose:
   siteurl: 'http://edrex.github.io'
   relativeLinks: 'http://edrex.github.io/links.json'
   media: 'media'
+me:
+  github: edrex
+  twitter: edrex
