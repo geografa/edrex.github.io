@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: post
 ---
 
@@ -9,7 +9,7 @@ On the down side, Jekyll is pretty much in feature freeze, as becomes quickly ap
 
 ## Criteria
 
-**INSERT TABLE
+**INSERT TABLE**
 
 **Middleman** seems to be the default upgrade from Jekyll. It's built around Rails' Asset Pipeline evidently (am I wrong?) which means it's a good bit more complex than Jekyll, but I'd still like to give it a chance.
 
