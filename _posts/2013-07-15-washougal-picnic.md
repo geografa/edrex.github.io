@@ -4,9 +4,9 @@ layout: post
 permalink: "washougal-picnic"
 ---
 
-You, as a reader of my blog are, cordially hereby and heretofore without further fussing about, invited to:
+You, as a reader of my blog and generally standup person, are cordially invited hereby and heretofore without further futzing about to:
 
-> A River Picnic on the beautiful Washougal
+> a River Picnic on the beautiful Washougal
 
 > this Wednesday the 17th of July
 
