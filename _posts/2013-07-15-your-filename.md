@@ -1,6 +1,7 @@
 ---
 published: false
 layout: default
+title: Test post
 ---
 
 ## Markdown
