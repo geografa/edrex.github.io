@@ -3,9 +3,25 @@ published: true
 layout: post
 ---
 
-I made this blog over the last few days using the basic [Jekyll]() support built into [Github Pages](http://pages.github.com/). I like that I can push content or edit on line and the built site will always be up to date. I also like that the build infrastructure is hosted by someone else, and I don't have to worry about it bitrotting much.
+I'm coding this site using [Jekyll](http://jekyllrb.com/), a static site [compiler](http://en.wikipedia.org/wiki/Interpreter_(computing)) written in Ruby. Since this isn't my first trip to the static site rodeo (see [ikiwiki](http://ikiwiki.info) [[e](http://wiki.pdxhub.org/)], [Frank](https://github.com/blahed/frank) [[e](http://cloudfeet.com/)], [[e2](http://wip.pdxhub.org/)]), it might not look too exciting on surface, but I'm experimenting with a new workflow that makes the process of building static sites simpler, and potentially more accessible to non-developers.
 
-On the down side, Jekyll is pretty much in feature freeze, as becomes quickly apparent [looking](https://github.com/mojombo/jekyll/issues/53) through the issue tracker. I'm looking into doing more advanced stuff at build time (SASS mostly) and Jekyll, at least the Github Pages hosted version, won't help me there. I could do my fancy build steps on a workstation, but I want to look into other options before I make a decision. 
+Why are tools like Jekyll in vogue with coders? It is largely in response to decades of tearony under the rule of _"CMSes"_ like Wordpress: dynamic, database-backed site [interpreters](http://en.wikipedia.org/wiki/Interpreter_(computing) with complex features such as user sessions. Most developers consider CMSes as massively overbuilt behemoths providing clunky, unnatural abstractions over what are essentially two straightforward problems: editing content and transforming that content into a website.
+
+Compilers, rather than running on every page request like an interpreter, run once each time *a change is made to the underlying content*, which The raw, unprocessed content is stored and edited independently
+Static site generator take the act of website creation to its bare bones, providing the minimal abstractions needed to create a site: preprocessor languages like markdown (for content) and mustache (for HTML templates). As a developer, it is a joy to use such simple tools after contending with complex dynamic behemoths such as Wordpress or Ruby on Rails. Rather than have to interact with a clunky web based CMS For a non-programmer, however, the coding tools required to edit a text-only site (text editor, VCS.
+
+
+The normal way to edit a static site like this is the same way you would edit any **code project**: using a workstation, with a text editor, a directory version controlled with Git, and a Unix terminal with Ruby. Any non-developers left in the room? Right. These tools are overkill for building static sites, and they are too complex to setup and use for mere mortals.
+
+That's why I'm using two workflow tools: [Github Pages'](https://pages.github.com) builtin Jekyll support, and <prose.io>, a content editor that interacts directly with your Github repos.
+
+Prose offers a content focused editing experience accessible from any HTML5 browser (including mobile), with valuable workflow features such image insert and upload and page-to-page linking.
+
+The experience contrast sharply alongside the laborious command line workflow used by most **coders** to edit content. 
+
+I like that I can push content or edit on line and the built site will always be up to date. I also like that the build infrastructure is hosted by someone else, and I don't have to worry about it bitrotting much.
+
+On the down side, Jekyll is pretty much en feature freeze, as becomes quickly apparent [looking](https://github.com/mojombo/jekyll/issues/53) through the issue tracker. I'm looking into doing more advanced stuff at build time (SASS mostly) and Jekyll, at least the Github Pages hosted version, won't help me there. I could do my fancy build steps on a workstation, but I want to look into other options before I make a decision. 
 
 ## Criteria
 
