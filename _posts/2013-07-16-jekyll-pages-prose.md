@@ -14,7 +14,11 @@ Both of these tools live "in the cloud", and together they completely remove the
 
 All of which is to say, this workflow can compete directly with traditional CMSes such as Wordpress.
 
-```... with their complex code, user sessions, and database backends, those bohemoths under whose tyranical reign web developers have toiled for the past two decades. Viva la revolución!```
+> ... with their complex code, user sessions, and database backends, 
+> those bohemoths under whose tyranical reign web developers have 
+> toiled for the past two decades. 
+> 
+> Viva la revolución!
 
 ## Further topics
 
