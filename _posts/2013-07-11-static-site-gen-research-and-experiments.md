@@ -3,7 +3,7 @@ published: true
 layout: post
 ---
 
-This is a continuation of 
+This is a follow-up to [Jekyll, Pages, and Prose.io](http://edrex.github.io/2013/07/16/jekyll-pages-prose/).
 
 ## Why Static
 
