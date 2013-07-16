@@ -12,6 +12,7 @@ Why are tools like Jekyll in vogue with coders? Largely it is in response to two
 Compilers, rather than running on every page request like an interpreter, run once each time *a change is made to the underlying content*, which The raw, unprocessed content is stored and edited independently
 Static site generator take the act of website creation to its bare bones, providing the minimal abstractions needed to create a site: preprocessor languages like markdown (for content) and mustache (for HTML templates). As a developer, it is a joy to use such simple tools after contending with complex dynamic behemoths such as Wordpress or Ruby on Rails. Rather than have to interact with a clunky web based CMS For a non-programmer, however, the coding tools required to edit a text-only site (text editor, VCS.
 
+## Cool Workflow for Non-programmers
 
 The normal way to edit a static site like this is the same way you would edit any **code project**: using a workstation, with a text editor, a directory version controlled with Git, and a Unix terminal with Ruby. Any non-developers left in the room? Right. These tools are overkill for building static sites, and they are too complex to setup and use for mere mortals.
 
@@ -20,6 +21,8 @@ That's why I'm using two workflow tools: [Github Pages'](https://pages.github.co
 Prose offers a content focused editing experience accessible from any HTML5 browser (including mobile), with valuable workflow features such image insert and upload and page-to-page linking.
 
 The experience contrast sharply alongside the laborious command line workflow used by most **coders** to edit content. 
+
+## Some tangential research notes
 
 I like that I can push content or edit on line and the built site will always be up to date. I also like that the build infrastructure is hosted by someone else, and I don't have to worry about it bitrotting much.
 
