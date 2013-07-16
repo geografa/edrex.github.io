@@ -12,7 +12,9 @@ The second tool is [prose.io][] an online text content editor that connects dire
 
 Both of these tools live "in the cloud", and together they completely remove the need for a workstation for editing static sites. I can author new posts on my mobile phone, or on a borrowed web browser. Also, because it is built on top of the collaborative features of Github, multiple people can edit a site simultaneously. 
 
-All of which is to say, this workflow can compete directly with traditional CMSes such as Wordpress with their complex code, user sessions, and database backends, those bohemoths under whose tyranical reign web developers have toiled for the past two decades. w00t!
+All of which is to say, this workflow can compete directly with traditional CMSes such as Wordpress
+
+... with their complex code, user sessions, and database backends, those bohemoths under whose tyranical reign web developers have toiled for the past two decades. Viva la revolución!
 
 ## Further topics
 
