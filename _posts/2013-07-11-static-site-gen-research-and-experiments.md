@@ -3,7 +3,15 @@ published: true
 layout: post
 ---
 
-I'm coding this site using [Jekyll](http://jekyllrb.com/), a static site [compiler](http://en.wikipedia.org/wiki/Interpreter_(computing)) written in Ruby. Since this isn't my first trip to the static site rodeo (see [ikiwiki](http://ikiwiki.info) [[e](http://wiki.pdxhub.org/)], [Frank](https://github.com/blahed/frank) [[e](http://cloudfeet.com/)], [[e2](http://wip.pdxhub.org/)]), it might not look too exciting on surface, but I'm experimenting with a new workflow that makes the process of building static sites simpler, and potentially more accessible to non-developers.
+I'm coding this site using [Jekyll][], a static site [compiler][] written in Ruby. Since this isn't my first trip to the static site rodeo (see [ikiwiki][] \[[e][wiki]\], [Frank][] \[[e][cf]\], \[[e2][wip]\]), it might not look too exciting on surface, but I'm experimenting with a new workflow that makes the process of building static sites simpler, and potentially more accessible to non-developers.
+
+[compiler]: http://en.wikipedia.org/wiki/Interpreter_(computing)
+[wiki]: http://wiki.pdxhub.org/
+[ikiwiki]: http://ikiwiki.info
+[cf]: http://cloudfeet.com/
+[Frank]: https://github.com/blahed/frank
+[wip]: http://wip.pdxhub.org/
+[Jekyll]: http://jekyllrb.com/
 
 ## Why Static?
 
@@ -16,7 +24,7 @@ Static site generator take the act of website creation to its bare bones, provid
 
 The normal way to edit a static site like this is the same way you would edit any **code project**: using a workstation, with a text editor, a directory version controlled with Git, and a Unix terminal with Ruby. Any non-developers left in the room? Right. These tools are overkill for building static sites, and they are too complex to setup and use for mere mortals.
 
-That's why I'm using two workflow tools: [Github Pages'](https://pages.github.com) builtin Jekyll support, and <prose.io>, a content editor that interacts directly with your Github repos.
+That's why I'm using two workflow tools: [Github Pages'](https://pages.github.com) builtin Jekyll support, and prose.io, a content editor that interacts directly with your Github repos.
 
 Prose offers a content focused editing experience accessible from any HTML5 browser (including mobile), with valuable workflow features such image insert and upload and page-to-page linking.
 
