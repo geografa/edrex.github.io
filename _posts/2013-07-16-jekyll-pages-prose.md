@@ -14,6 +14,8 @@ Both of these tools live "in the cloud", and together they completely remove the
 
 All of which is to say, this workflow can compete directly with traditional CMSes such as Wordpress with their complex code, user sessions, and database backends, those bohemoths under whose tyranical reign web developers have toiled for the past two decades. w00t!
 
+This post is the first in a series. The second is [Static Site Gen Research And Experiments](/2013/07/11/static-site-gen-research-and-experiments/)
+
 [compiler]: http://en.wikipedia.org/wiki/Interpreter_(computing)
 [wiki]: http://wiki.pdxhub.org/
 [ikiwiki]: http://ikiwiki.info
