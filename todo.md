@@ -1,9 +1,15 @@
 ---
 published: true
-title: TODO.md
+title: Metabout this site
 layout: post
 date: "2013-07-15"
 ---
+
+Styling based on http://designmodo.com/flat/
+
+http://stackoverflow.com/questions/12226859/is-it-possible-to-choose-the-stacking-order-of-spans
+
+## Todo
 
 - Defaults for editor
 - zurb foundation
