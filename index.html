@@ -4,7 +4,7 @@ title: "French Pressicus-Technicalus"
 ---
 
 <div id="home" class="row">
-  <div class="span2">
+  <div class="span3">
     <ul class="nav nav-tabs nav-stacked">
       {% for p in site.pages %}{% if p.url != page.url and p.title != null %}
         <li><a href="{{ p.url }}">{{ p.title }}</a></li>
@@ -19,7 +19,7 @@ title: "French Pressicus-Technicalus"
       </h1>
     </div>
   </div>
-  <div class="span6">
+  <div class="span9">
     <ul class="posts">
       {% for post in site.posts %}
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
