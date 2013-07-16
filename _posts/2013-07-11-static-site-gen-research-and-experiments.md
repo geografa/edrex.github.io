@@ -3,17 +3,9 @@ published: true
 layout: post
 ---
 
-I'm coding this site using [Jekyll][], a static site [compiler][] written in Ruby. Since this isn't my first trip to the static site rodeo (see [ikiwiki][] \[[e][wiki]\], [Frank][] \[[e][cf]\], \[[e2][wip]\]), it might not look too exciting on surface, but I'm experimenting with a new workflow that makes the process of building static sites simpler, and potentially more accessible to non-developers.
+This is a continuation of 
 
-[compiler]: http://en.wikipedia.org/wiki/Interpreter_(computing)
-[wiki]: http://wiki.pdxhub.org/
-[ikiwiki]: http://ikiwiki.info
-[cf]: http://cloudfeet.com/
-[Frank]: https://github.com/blahed/frank
-[wip]: http://wip.pdxhub.org/
-[Jekyll]: http://jekyllrb.com/
-
-## Why Static?
+## Why Static
 
 Why are tools like Jekyll in vogue with coders? Largely it is in response to two decades of tearony under the despotic rule of _"CMSes"_ like Wordpress: dynamic, database-backed site [interpreters](http://en.wikipedia.org/wiki/Interpreter_(computing)) with complex features such as user sessions. Most developers consider CMSes as massively overbuilt behemoths providing clunky, unnatural abstractions over what are essentially two straightforward problems: editing content and transforming that content into a website.
 
