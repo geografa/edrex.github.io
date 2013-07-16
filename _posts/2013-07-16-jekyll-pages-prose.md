@@ -17,7 +17,7 @@ All of which is to say, this workflow can compete directly with traditional CMSe
 ## Further topics
 
  * Content collaboration over Github
- * Replacing the Github's builtin site compiler (Jekyll) with [something else]((/2013/07/11/static-site-gen-research-and-experiments/)), and why you would want to do that besides being a masochist
+ * Replacing the Github's builtin site compiler (Jekyll) with [something else]((/2013/07/11/static-site-gen-research-and-experiments/), and why you would want to do that besides being a masochist
  * Using Prose.io with a self hosted Gitlab server. Not currently possible due to API differences between GH and GL.
  
 [compiler]: http://en.wikipedia.org/wiki/Interpreter_(computing)
