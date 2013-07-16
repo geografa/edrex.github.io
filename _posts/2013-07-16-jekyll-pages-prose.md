@@ -4,7 +4,7 @@ layout: default
 title: "Jekyll, Pages, and Prose.io"
 ---
 
-I'm coding this site using [Jekyll][], a static site [compiler][] written in Ruby. It's not my first trip to the static site rodeo ([ikiwiki][] [e][wiki], [Frank][] [e1][cf], [e2][wip]), so might not look too exciting at first glance. What is exciting is some new workflow tools I am using which make the process of building static sites simpler and potentially more accessible to non-developers.
+I'm coding this site using [Jekyll][], a static site [compiler][] written in Ruby. It's not my first trip to the static site rodeo ([ikiwiki][] [e][wiki], [Frank][] [e1][cf], [e2][wip]), so this project might not look too exciting at first glance. What is exciting is some new workflow tools I am using which make the process of building static sites simpler and potentially more accessible to non-developers.
 
 The first tool is Github's Pages hosting service, which features automatic site builds using Jekyll. Whenever I push new content, it is instantly built and published to my site. This is really cool.
 
