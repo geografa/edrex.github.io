@@ -11,7 +11,6 @@ http://stackoverflow.com/questions/12226859/is-it-possible-to-choose-the-stackin
 
 ## Todo
 
+- Edit button for posts
 - Defaults for editor
-- zurb foundation
 - Spin off a template for quickstarting a jekyll + prose.io workflow
- 
