@@ -11,6 +11,8 @@ http://stackoverflow.com/questions/12226859/is-it-possible-to-choose-the-stackin
 
 ## Todo
 
+- [Default metadata for posts][pmd]
 - Edit button for posts
-- Defaults for editor
 - Spin off a template for quickstarting a jekyll + prose.io workflow
+
+[pdm]: https://github.com/prose/prose/wiki/Prose-Configuration#wiki-metadata
