@@ -2,6 +2,7 @@
 published: true
 layout: default
 title: "Jekyll, Pages, and Prose.io"
+description: a minimalist stack for publishing online
 ---
 
 I'm coding this site using [Jekyll][], a static site [compiler][] written in Ruby. It's not my first trip to the static site rodeo ([ikiwiki][] [e][wiki], [Frank][] [e1][cf], [e2][wip]), so this project might not look too exciting at first glance. What is exciting is some new workflow tools I am using which make the process of building static sites simpler and potentially more accessible to non-developers.

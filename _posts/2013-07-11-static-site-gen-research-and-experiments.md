@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+description: research notes
 ---
 
 This is a follow-up to [Jekyll, Pages, and Prose.io](/2013/07/16/jekyll-pages-prose/).
