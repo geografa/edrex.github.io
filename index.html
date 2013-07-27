@@ -1,29 +1,35 @@
 ---
 layout: default
 title: "French Pressicus-Technicalus"
+description: the common cafe nerd
 ---
 
 <div id="home" class="row">
-  <div class="span3">
-    <ul class="nav nav-tabs nav-stacked">
-      {% for p in site.pages %}{% if p.url != page.url and p.title != null %}
-        <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+  <div class="col-sm-9">
+    <div class="list-group posts">
+    {% for post in site.posts %}
+      <a href="{{ post.url }}" class="list-group-item">
+        <h4 class="list-group-item-heading">{{ post.title }}<small class="pull-right">{{ post.date | date_to_string }}</small></h4>
+      {% if post.description %}
+        <p class="list-group-item-text">{{ post.description }}</p>
       {% endif %}
-      {% endfor %}
-    </ul>
-    <div class="contact">
-      <div class="fullname">{{ site.me.name }}</div>
-      <div class="profession">{{ site.me.profession }}</div>
-      <h1>
-        <a href="http://github.com/{{ site.me.github }}/">g</a><a href="http://twitter.com/{{ site.me.twitter }}/">t</a><a href="http://facebook.com/ericdrex/">f</a><a href="http://orkut.com/justkidding/">o</a>
-      </h1>
+      </a>
+    {% endfor %}
     </div>
   </div>
-  <div class="span9">
-    <ul class="posts">
-      {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
+  <div class="col-sm-3">
+    <div class="list-group posts">
+    {% for post in site.pages %}{% if post.url != page.url and post.title != null %}
+      <a href="{{ post.url }}" title="{{ post.description }}" class="list-group-item">
+        <h4 class="list-group-item-heading">{{ post.title }}</h4>
+      </a>
+    {% endif %}{% endfor %}
+    </div>
+    <div class="list-group">
+      <a class="list-group-item" href="http://github.com/{{ site.me.github }}/">Github</a>
+      <a class="list-group-item" href="http://twitter.com/{{ site.me.twitter }}/">Twitter</a>
+      <a class="list-group-item" href="http://facebook.com/ericdrex/">Facebook</a>
+      <a class="list-group-item" href="irc://irc.freenode.net/#pdxtech">IRC</a>
+    </div>
   </div>
 </div>
