@@ -2,9 +2,12 @@
 published: true
 layout: post
 permalink: "washougal-picnic"
+description: river frolick invitation
 ---
 
 ![1.jpg](/media/1.jpg)
+
+**Update:** After the success of the first, there will be a second Washougal trip this Sunday July 28th, leaving from my house a 1pm!
 
 You, as a reader of my blog and generally standup person, are cordially invited hereby and heretofore without further futzing about to:
 

@@ -1,7 +1,8 @@
 ---
 published: true
-title: Annotate slid.es decks with SVG
+title: Annotating slid.es decks with SVG
 layout: post
+description: an experiment with reveal.io
 ---
 
 Today I experimented with annotating [slid.es](http://slid.es) presentations with SVG. It's *almost* there. Following is a rough guide, for the adventurous, along with issues I found along the way.
