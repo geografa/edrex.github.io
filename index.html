@@ -21,7 +21,7 @@ description: the common cafe nerd
     <div class="list-group posts">
     {% for post in site.pages %}{% if post.url != page.url and post.title != null %}
       <a href="{{ post.url }}" title="{{ post.description }}" class="list-group-item">
-        <h4 class="list-group-item-heading">{{ post.title }}</h4>
+        {{ post.title }}
       </a>
     {% endif %}{% endfor %}
     </div>
