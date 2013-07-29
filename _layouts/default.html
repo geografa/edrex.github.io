@@ -11,11 +11,8 @@
 
         <!-- Loading Bootstrap -->
         <link href="/css/bootstrap3.css" rel="stylesheet">
-        <!-- <link href="/lib/flat/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
-        <!-- <link href="/lib/flat/bootstrap/css/bootstrap-responsive.css" rel="stylesheet"> -->
+        <link href="/css/bootstrap-glyphicons.css" rel="stylesheet">
 
-        <!-- Loading Flat UI -->
-        <!-- <link href="/lib/flat/css/flat-ui.css" rel="stylesheet"> -->
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/site.css">
 
@@ -24,9 +21,22 @@
 
         <div class="container site">
           <div class="page-header">
-            <h1 class="title">{% if page.url != '/' %}<a href="/" title="{{ site.name }}">..</a>{% endif %} {{ page.title }}<div><small class="description">{{ page.description }}</small></div></h1>
-
-          </div>
+            <div class="pull-right">
+              <div class="post-edit">
+                <a class="glyphicon glyphicon-edit pull-right" href="{% if page.path %}//prose.io/#edrex/edrex.github.io/edit/master/{{ page.path }}{% else %}//prose.io/#edrex/edrex.github.io{% endif %}"></a>
+              </div> 
+            {% if page.date %}
+              <div class="page-date pull-right">{{ page.date | date_to_string }}</div>
+            {% endif %}
+            </div>
+            <h1 class="title">{% if page.url != '/' %}<a href="/" title="{{ site.name }}">..</a>{% endif %} {{ page.title }}  <!-- Edit current page -->
+              <div >
+                <small class="description">
+                  {{ page.description }}
+                </small>
+              </div>
+            </h1>
+            </div>
           <div class="content">
             {{ content }}
           </div>
