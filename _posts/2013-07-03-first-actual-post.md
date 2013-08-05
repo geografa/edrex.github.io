@@ -1,5 +1,5 @@
 ---
-title: Default post
+title: First Actual Post!
 published: true
 layout: post
 ---
