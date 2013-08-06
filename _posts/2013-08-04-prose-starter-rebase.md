@@ -5,21 +5,23 @@ layout: post
 description: notes for spinning off a new open source project
 ---
 
+This post comprises my working notes for extracting a reusable Github Pages starter site from the repo for this blog. The template site is [here](https://github.com/edrex/reusable-jekyll-site).
+
 ## Goal
 
 Spin off a minimal reusable starter repo [prose](http://prose.io) + Jekyll/Github Pages sites.
 
-Strategy:
+## Strategy
 
 1. clean wc
-2. Split commits that touch both content and reusable. Reorder clean commits.
+2. Split commits that touch both content and reusable.
 
     ```bash
     PATHS=_config.yml _layouts/ links.json index.html js css .gitignore css/ fonts/
     # in three windows:
-    git log --stat --reverse --date-order --full-diff $PATHS
-    git log -u     --reverse --date-order --full-diff $PATHS
-    rebase -i
+    git log --stat --reverse --topo-order --full-diff $PATHS
+    git log -u     --reverse --topo-order --full-diff $PATHS
+    rebase -i --root
     # edit/split
     ```
 
@@ -27,10 +29,11 @@ Strategy:
 4. Clean reusable history by reorder/squash/edit
     * Remove unused asset files
     * Make sure initial commits don't have any personal info in layouts
-5. Make new new `reusable-jekyll-site` branch and push to Github.
+5. Make `reusable-jekyll-site` branch and push to Github.
 
     git remote add
     git push -u HEAD reusable:master
+    
+## TODO
 
-Note:
-
+Make a README
