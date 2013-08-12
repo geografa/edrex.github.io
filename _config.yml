@@ -10,7 +10,7 @@ github:
   branch: master
 prose:
   siteurl: 'http://edrex.github.io'
-  relativeLinks: 'http://edrex.github.io/links.jsonp'
+  relativeLinks: 'http://edrex.github.io/links.json'
   media: 'media'
 me:
   name: Eric Drechsel
