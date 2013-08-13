@@ -31,14 +31,15 @@
               <div class="page-date pull-right">{{ page.date | date_to_string }}</div>
             {% endif %}
             </div>
-            <h1 class="title">{% if page.url != '/' %}<a href="/" title="{{ site.name }}">..</a>{% endif %} {{ page.title }} 
-              <div >
-                <small class="description">
-                  {{ page.description }}
-                </small>
-              </div>
+            <img class="avatar pull-left" src="http://www.gravatar.com/avatar/fbecd2cf5679e59a46df57e550fa6e51.jpg?s=96&r=pg"></img>
+            <h1 class="title">
+              {% if page.url != '/' %}<a href="/" title="{{ site.name }}">..</a>{% endif %} {{ page.title }} 
+              <br><small class="description">
+                {{ page.description }}
+              </small>
+              <div class="clearfix"></div>
             </h1>
-            </div>
+          </div>
           <div class="content">
             {{ content }}
           </div>
