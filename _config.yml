@@ -2,17 +2,17 @@ name: "French Pressicus-Technicalus"
 subtitle: "the common cafe nerd"
 signature: "Eric Drechsel, Investigative Nerd"
 pygments: true
-permalink: pretty
-markdown: redcarpet
+permalink: "pretty"
+markdown: "redcarpet"
 github:
-  repo: 'edrex/edrex.github.io'
-  branch: master
+  repo: "edrex/edrex.github.io"
+  branch: "master"
 prose:
-  siteurl: 'http://edrex.github.io'
-  relativeLinks: 'http://edrex.github.io/links.json'
-  media: 'media'
+  siteurl: "http://edrex.github.io"
+  relativeLinks: "http://edrex.github.io/links.json"
+  media: "media"
 me:
-  name: Eric Drechsel
-  profession: Investigative Nerd
-  github: edrex
-  twitter: edrex
+  name: "Eric Drechsel"
+  profession: "Investigative Nerd"
+  github: "edrex"
+  twitter: "edrex"
