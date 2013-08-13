@@ -20,7 +20,7 @@ Spin off a minimal reusable starter repo [prose](http://prose.io) + Jekyll/Githu
     PATHS=_config.yml _layouts/ links.json index.html js css .gitignore css/ fonts/
     # in three windows:
     git log --stat --reverse --topo-order --full-diff $PATHS
-    git log -u     --reverse --topo-order --full-diff $PATHS
+    git log  -u    --reverse --topo-order --full-diff $PATHS
     rebase -i --root
     # edit/split
     ```
