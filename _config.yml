@@ -5,7 +5,6 @@ pygments: true
 permalink: pretty
 markdown: redcarpet
 github:
-  # enables "edit" link
   repo: 'edrex/edrex.github.io'
   branch: master
 prose:
