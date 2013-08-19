@@ -1,7 +1,11 @@
-.header a {
-  font-weight: bold;
-  text-decoration: none;
-}
 .page-header .avatar {
-  margin-right: 10px;
+	margin-right: 9px;
+}
+.page-header .page-date {
+	font-size: .5em;
+}
+
+.title small {
+	margin-top:.4em;
+	display: block;
 }

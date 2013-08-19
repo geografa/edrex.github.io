@@ -21,25 +21,21 @@
 
         <div class="container site">
           <div class="page-header">
-            <div class="pull-right">
-            {% if page.path and site.github.repo and site.github.branch %}
-              <div class="post-edit">
-                <a class="glyphicon glyphicon-edit pull-right" href="http://prose.io/#{{ site.github.repo }}/edit/{{ site.github.branch }}/{{ page.path }}"></a>
-              </div> 
-            {% endif %}
-            {% if page.date %}
-              <div class="page-date pull-right">{{ page.date | date_to_string }}</div>
-            {% endif %}
-            </div>
-            <img class="avatar pull-left" src="http://www.gravatar.com/avatar/fbecd2cf5679e59a46df57e550fa6e51.jpg?s=96&r=pg"></img>
+            
+            <a href="/" title="{{ site.name }}"><img class="avatar pull-right img-rounded" src="http://www.gravatar.com/avatar/fbecd2cf5679e59a46df57e550fa6e51.jpg?s=96&r=pg"></img></a>
             <h1 class="title">
-              {% if page.url != '/' %}<a href="/" title="{{ site.name }}">..</a>{% endif %} {{ page.title }} 
-              <br><small class="description">
-                {{ page.description }}
+              {{ page.title }} 
+              <small>{{ page.description }}
+              {% if page.date %}
+                <span class="page-date">{{ page.date | date_to_string }}</span>
+              {% endif %}
+              {% if page.path and site.github.repo and site.github.branch %}
+                <a class="post-edit glyphicon glyphicon-pencil" href="http://prose.io/#{{ site.github.repo }}/edit/{{ site.github.branch }}/{{ page.path }}"></a>
+              {% endif %}
               </small>
-              <div class="clearfix"></div>
             </h1>
-          </div>
+            <div class="clearfix"></div>
+        </div>
           <div class="content">
             {{ content }}
           </div>
