@@ -8,24 +8,23 @@ boxes:
   Resume: |
     * [HTML](http://erics-blog.pdxhub.org/pages/eric_drechsel_resume.html)
     * [PDF](http://erics-blog.pdxhub.org/pages/eric_drechsel_resume.pdf)
-  Online identity: |
+  Niche Stuff: |
     * [TiddlySpace](http://eric.tiddlyspace.com)
-    * [Facebook](http://www.facebook.com/ericdrex)
-    * [Twitter](http://twitter.com/edrex)
-    * [LinkedIn](http://www.linkedin.com/pub/eric-drechsel/14/2b6/b67)
-    * [del.icio.us](http://delicious.com/ericdrex)
-    * [Identi.ca](http://identi.ca/edrex)
-    * [Tumblr](http://3by5.tumblr.com/)
-    * [Last FM](http://www.last.fm/user/edrex)
-    * [Old Blog](http://erics-blog.pdxhub.org)
-  Development sites: |
-    * [Github](http://github.com/edrex)
     * [Launchpad](https://bugs.launchpad.net/~ericdrex)
-    * [Drupal](http://drupal.org/user/14325)
-    * [Stack Overflow](http://stackoverflow.com/users/114581)
+    * [IRC](irc://irc.freenode.net/#pdxtech "me llamo edrex")
+    * [Drupal](http://drupal.org/user/14325 "I don't do Drupal stuff anymore :D")
 ---
-
-I am working analyzing all the things. Until then, [here is my Vizify](https://www.vizify.com/eric-drechsel/).
+<p>
+    <ul class="nav nav-pills icon-bar">
+      <li><a href="http://github.com/{{ site.me.github }}/" title="Github"><i class="icon-github"></i></a></li>
+      <li><a href="http://twitter.com/{{ site.me.twitter }}/" title="Twitter"><i class="icon-twitter"></i></a></li>
+      <li><a href="https://foursquare.com/edrex" title="Foursquare"><i class="icon-foursquare"></i></a></li>
+      <li><a href="http://facebook.com/ericdrex/" title="The FBs"><i class="icon-facebook"></i></a></li>
+      <li><a href="http://www.linkedin.com/pub/eric-drechsel/14/2b6/b67" title="LinkedIn"><i class="icon-linkedin"></i></a></li>
+      <li><a href="http://stackoverflow.com/users/114581" title="Stack Overflow"><i class="icon-stackexchange"></i></a></li>
+    </ul>
+</p>
+One day I will analyze all the things. Until then, [check out my Vizify](https://www.vizify.com/eric-drechsel/).
 
 I maintain [PDXHub tech coop](http://pdxhub.org)'s servers and web apps in support of other local organizers, and am a founding member of [Activate](http://activatehub.org/). I'm also active in many open source software, civic, and bicycling communities.
 
