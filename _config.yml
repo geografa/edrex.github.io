@@ -4,6 +4,7 @@ signature: "Eric Drechsel, Investigative Nerd"
 pygments: true
 permalink: "pretty"
 markdown: "redcarpet"
+relative_permalinks: false
 github:
   repo: "edrex/edrex.github.io"
   branch: "master"

@@ -1,8 +1,8 @@
 ---
 published: true
 title: Metabout this site
-layout: post
-date: "2013-07-15"
+layout: default
+permalink: todo/
 ---
 
 Styling based on http://designmodo.com/flat/

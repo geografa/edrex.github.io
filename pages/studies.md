@@ -3,6 +3,7 @@ published: true
 title: Studies
 layout: default
 date: '2013-07-11'
+permalink: studies/
 ---
 
 ## Courses
