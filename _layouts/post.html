@@ -4,4 +4,5 @@ layout: default
 
 <div class="post">
   <div class="content">{{ content }}</div>
+  {{ if site.signature }}<div class="pull-right"><i>{{ site.signature }}</i>{{ endif }}{% if page.date %}, <span class="page-date">{{ page.date | date_to_string }}</span></div>{% endif %}
 </div>
