@@ -43,9 +43,27 @@
               </small>
             </h1>
             <div class="clearfix"></div>
-        </div>
+          </div>
           <div class="content">
+          {% if page.boxes %}
+            <div class="row">
+              <div class="col-sm-6">
+                {{ content }}
+              </div>
+              <div class="col-sm-6">
+                <div class="panel">
+                {% for box in page.boxes %}
+                  <h3>{{ box[0] }}</h3>
+                  <div>
+                    {{ box[1] | markdownify }}
+                  </div>
+                {% endfor %}
+                </div>
+              </div>
+            </div>
+          {% else %}
             {{ content }}
+          {% endif %}
           </div>
         </div> <!-- /container -->
 
