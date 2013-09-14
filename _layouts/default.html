@@ -19,51 +19,18 @@
     </head>
     <body>
         <div class="container site">
-          <ul class="nav nav-pills pull-right">
-              <li>
-                <a href="/" title="{{ site.name }}"><span class="icon-sitemap"></span></a>
-              </li>
-              <li>
-                <a href="/about/" title="About Me"><span class="icon-user"></span></a>
-              </li>
-            {% if page.path and site.github.repo and site.github.branch %}
-              <li>
-                <a><i class="icon-code"></i></a>
-              </li>
-              <li>
-                <a href="http://prose.io/#{{ site.github.repo }}/edit/{{ site.github.branch }}/{{ page.path }}"><span class="icon-edit"></span></a>
-              </li>
-            {% endif %}
-          </ul>
-            <a href="/about/" title="{{ site.name }}"><img class="avatar pull-left img-rounded" src="http://www.gravatar.com/avatar/fbecd2cf5679e59a46df57e550fa6e51.jpg?s=96&r=pg"></img></a>
+          {% include menu.html %}
+          <a href="/about/" title="{{ site.name }}"><img class="avatar pull-left img-rounded" src="http://www.gravatar.com/avatar/fbecd2cf5679e59a46df57e550fa6e51.jpg?s=96&r=pg"></img></a>
           <div class="page-header">
             <h1 class="title">
               {{ page.title }} 
-              <small>{{ page.description }}
-              </small>
+              <small>{{ page.description }}</small>
             </h1>
             <div class="clearfix"></div>
           </div>
           <div class="content">
-          {% if page.boxes %}
-            <div class="row">
-              <div class="col-sm-6">
-                {{ content }}
-              </div>
-              <div class="col-sm-6">
-                <div class="panel">
-                {% for box in page.boxes %}
-                  <h3>{{ box[0] }}</h3>
-                  <div>
-                    {{ box[1] | markdownify }}
-                  </div>
-                {% endfor %}
-                </div>
-              </div>
-            </div>
-          {% else %}
             {{ content }}
-          {% endif %}
+          </div>
           </div>
         </div> <!-- /container -->
 

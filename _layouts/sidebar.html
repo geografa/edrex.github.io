@@ -1,17 +1,17 @@
 ---
-layout: post
+layout: default
 ---
 
-  <div class="row">
-    <div class="col-sm-9">{{ content }}</div>
-    <div class="col-sm-3">
-    <div class="panel">
-    {% for box in page.boxes %}
-        <h4>{{ box[0] }}</h4>
-        <div>
-          {{ box[1] | markdownify }}
-        </div>
-    {% endfor %}
-    </div>
-    </div>
+<div class="row">
+  <div class="col-sm-9">{{ content }}</div>
+  <div class="col-sm-3 sidebar">
+  <div class="panel">
+  {% for box in page.boxes %}
+      <h4>{{ box.title }}</h4>
+      <div>
+        {{ box.content | markdownify }}
+      </div>
+  {% endfor %}
   </div>
+  </div>
+</div>

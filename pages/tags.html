@@ -1,0 +1,25 @@
+---
+title: Tags
+published: true
+permalink: tags/
+layout: default
+---
+
+
+{% for tag in site.tags %}
+<h2 id="tag-{{ tag[0] }}">{{ tag[0] }}</h2>
+
+<ul>
+{% for p in tag[1] %}
+<li><a href="{{ p.url }}">{{ p.title }}</a></li>
+{% endfor %}
+</ul>
+{% endfor %}
+
+<h2 id="tag-{{ tag[0] }}">untagged</h2>
+
+<ul>
+{% for p in site.posts %}{% if p.tags == empty %}
+<li><a href="{{ p.url }}">{{ p.title }}</a></li>
+{% endif %}{% endfor %}
+</ul>
