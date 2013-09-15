@@ -1,19 +1,19 @@
-          <ul class="nav nav-pills pull-right">
-              <li>
-                <a href="/" title="{{ site.name }}"><span class="icon-home"></span></a>
-              </li>
-              <li>
-                <a href="/tags/"><span class="icon-tags"></span></a>
-              </li>
-              <li>
-                <a href="/about/" title="About Me"><span class="icon-user"></span></a>
-              </li>
-            {% if page.path and site.github.repo and site.github.branch %}
-              <li>
-                <a href="http://github.com/{{ site.github.repo }}/blob/{{ site.github.branch }}/{{ page.path }}"><i class="icon-code"></i></a>
-              </li>
-              <li>
-                <a href="http://prose.io/#{{ site.github.repo }}/edit/{{ site.github.branch }}/{{ page.path }}"><span class="icon-edit"></span></a>
-              </li>
-            {% endif %}
-          </ul>
+<ul class="nav nav-pills pull-right">
+    <li>
+      <a href="/" title="{{ site.name }}"><span class="icon-home"></span></a>
+    </li>
+    <li>
+      <a href="/tags/"><span class="icon-tags"></span></a>
+    </li>
+    <li>
+      <a href="/about/" title="About Me"><span class="icon-user"></span></a>
+    </li>
+  {% if page.path and site.github.repo and site.github.branch %}
+    <li>
+      <a href="http://github.com/{{ site.github.repo }}/blob/{{ site.github.branch }}/{{ page.path }}"><i class="icon-code"></i></a>
+    </li>
+    <li>
+      <a href="http://prose.io/#{{ site.github.repo }}/edit/{{ site.github.branch }}/{{ page.path }}"><span class="icon-edit"></span></a>
+    </li>
+  {% endif %}
+</ul>
