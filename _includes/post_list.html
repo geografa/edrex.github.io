@@ -5,7 +5,8 @@
           {% if post.tags %}
             <span class="tags">
             {% for tag in post.tags %}
-              <a href="/tags/#tag-{{ tag }}">{{tag}}</a>
+              <a class="tag label label-default" href="/tags/#tag-{{ tag }}"><span class="icon-tags"></span> {{tag}}</a>
+              
             {% endfor %}
             </span>
           {% endif %}
