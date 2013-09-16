@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Todo.txt in Jekyll"
-description: In this first post in a series on daily creative experiments, I prototype inline todo.txt support in Jekyll.
+description: Prototype inline todo.txt support in Jekyll.
 tags: thing-a-day
 theme: [none]
 todo: |
