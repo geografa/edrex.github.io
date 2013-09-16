@@ -21,12 +21,4 @@ Avoid too many rules other than that each thing should be tagged "thing-a-day".
 
 ## Day thing ideas
 
-<table class="table">
-  <thead><tr><th>Idea</th><th>Description</th>
-  <th>Date Posted</th></tr>
-{% for post in site.posts %}
-  {% if post.tags contains 'thing-a-day' %}
-    <tr><td><a href="{{ post.url }}">{{ post.title }}</a></td><td>{{ post.description }}</td><td>{{ post.date | date_to_string }}</td></tr>
-    {% endif %}
-{% endfor %}
-</table>
+{% include post-table.html tag="thing-a-day" columns="title: Idea, description: Description" %}
