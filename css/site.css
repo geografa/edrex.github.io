@@ -15,7 +15,7 @@
   font-size: 1.5em;
 }
 
-.sidebar li {
+ul.inline li {
   display: inline;
   list-style: none;
   padding-right: .5em;
