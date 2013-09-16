@@ -1,9 +1,16 @@
 ---
-title: Cheat sheets
+title: Lists of stuff
 layout: default
-permalink: cheat/
+permalink: wishlists/
 ---
 
-For my own benefit, links to crib notes for various resources
+# Media
 
- * [tmux cheatsheet](https://gist.github.com/andreyvit/2921703)
+## Comics/Art
+
+http://www.jedmcgowan.com/ voyager, bristlecone pine
+http://www.letswatchstartrek.com/
+
+## Math and science
+
+http://www.dcc.ufmg.br/miningalgorithms/files/pdf/dmafca.pdf
