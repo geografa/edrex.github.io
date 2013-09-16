@@ -16,9 +16,3 @@ Reminders:
 
  * Avoid a backlog of unstarted things. Instead try to keep each thing fresh and explore it right away.
  * Keep it simple, avoiding process overhead and complexity. Get to the thing as directly as possible.
-
-## Day thing ideas
-
-
-
-{% include post-table.html tag="thing-a-day" columns="title: Idea, description: Description" %}
