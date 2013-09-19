@@ -2,10 +2,11 @@
 title: Things
 description: Thing-a-day is my effort to do something creative every day. 
 layout: sidebar
+tags: main
 boxes:
-  - title: Things in Progress
+  - title: Completed things
     content: |
-      * Firebase
+      * [Firebase/AngularFire](/things/angularfire/)
 ---
 
 ### What's this?
