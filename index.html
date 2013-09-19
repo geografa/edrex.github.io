@@ -10,9 +10,9 @@ description: the common cafe nerd
   </div>
   <div class="col-sm-3">
     <ul class="nav nav-pills nav-stacked">
-    {% for post in site.pages %}{% if post.url != page.url and post.title != null %}
+    {% for post in site.pages %}{% if post.tags contains "main" and post.url != page.url and post.title != null %}
       <li>
-        <a href="{{ post.url }}" title="{{ post.description }}">
+        <a href="{{ post.url }}" title="{{ post.description | strip_html }}">
           {% if post.icon %}<i class="icon-{{ post.icon }}"></i>{% endif %} {{ post.title }}
         </a>
       </li>

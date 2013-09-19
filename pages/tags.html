@@ -23,3 +23,15 @@ layout: default
 <li><a href="{{ p.url }}">{{ p.title }}</a></li>
 {% endif %}{% endfor %}
 </ul>
+
+<h2 id="tag-{{ tag[0] }}">non-main pages</h2>
+
+<ul>
+    {% for post in site.pages %}{% unless post.tags contains "main" %}{% if post.url != '/' and post.title != null %}
+      <li>
+        <a href="{{ post.url }}" title="{{ post.description | strip_html }}">
+          {% if post.icon %}<i class="icon-{{ post.icon }}"></i>{% endif %} {{ post.title }}
+        </a>
+      </li>
+    {% endif %}{% endunless %}{% endfor %}
+</ul>

@@ -1,6 +1,7 @@
 ---
 title: About
-description: me
+description: Me
+tags: main
 published: true
 permalink: about/
 layout: sidebar
