@@ -39,21 +39,29 @@ header: |
 <div ng-app="myapp">
 {% raw %}
   <div ng-controller="MyController">
+    <p>This dive uses Angular.js. You can check out the source on Github using the <i class="icon-code"></i> link above.</p>
+
     <p>The first thing I tried after getting the basic chat room tutorial app working was authentication. Firebase has social authentication built in. Other providers are supported, I just didn't enable them.</p>
 
     <div class="alert alert-success" ng-show="user">
       You are logged in as <i class="icon-{{user.provider}}"> {{user.name}}</i> | <a ng-click="logout()">Logout</a>
     </div>
-    <div class="alert alert-danger" ng-hide="user"><p>You are not logged in. </p><p>Log in with  <a ng-click="login('twitter')">Twitter</a> or <a ng-click="login('github')">Github</a></p></div>
+    <div class="alert alert-danger" ng-hide="user"><p>Log in with  <a ng-click="login('twitter')">Twitter</a> or <a ng-click="login('github')">Github</a> to post messages.</p></div>
 
     <p>Being logged in is great, but I wanted to add some protected actions. I modified the chat app so that you are <a href="https://gist.github.com/edrex/6626021">only allowed</a> to post a message if you are logged in.</p>
 
-    <div id="messagesDiv">
-      <div ng-repeat="msg in messages"><em><i class="icon-{{msg.provider}}"></i> {{msg.name}}</em>: {{msg.text}}</div>
+    <div id="messages" class="panel panel-default">
+      <div class="panel-body">
+        <div ng-repeat="msg in messages"><em><i class="icon-{{msg.provider}}"></i> {{msg.name}}</em>: {{msg.text}}</div>
+      </div>
+      <div class="panel-footer">
+        <form class="form-inline" role="form">
+        <div ng-show="user">
+          <input class="form-control" type="text" ng-model="text" ng-keydown="addMessage($event)" placeholder="Message...">
+        </div>
+        <span ng-hide="user">Log in with <a ng-click="login('twitter')">Twitter</a> or <a ng-click="login('github')">Github</a> to post messages.</span>
+      </div>
     </div>
-
-    <input type="text" ng-show="user" ng-model="text" ng-keydown="addMessage($event)" placeholder="Message...">
-
   </div>
 {% endraw %}
 </div>
