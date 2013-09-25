@@ -10,9 +10,6 @@
     </li>
   {% if page.path and site.github.repo and site.github.branch %}
     <li>
-      <a href="http://github.com/{{ site.github.repo }}/blob/{{ site.github.branch }}/{{ page.path }}"><i class="icon-code"></i></a>
-    </li>
-    <li>
       <a href="http://prose.io/#{{ site.github.repo }}/edit/{{ site.github.branch }}/{{ page.path }}"><span class="icon-edit"></span></a>
     </li>
   {% endif %}

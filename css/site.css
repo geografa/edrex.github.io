@@ -10,9 +10,8 @@ a {
 	font-size: .5em;
 }
 
-.title small {
-	margin-top:.4em;
-	display: block;
+.title .tags {
+	margin-left:1em;
 }
 
 .icon-bar {

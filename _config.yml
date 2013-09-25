@@ -1,6 +1,16 @@
 name: "French Pressicus-Technicalus"
 subtitle: "the common cafe nerd"
 signature: "Eric Drechsel, Investigative Nerd"
+taginfo:
+  main:
+    icon: "home"
+    url: "/"
+  things:
+    icon: "gift"
+    url: "/things"
+  done:
+    icon: "gift"
+    url: "/things"
 pygments: true
 permalink: "pretty"
 markdown: "redcarpet"

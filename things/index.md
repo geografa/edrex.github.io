@@ -1,6 +1,6 @@
 ---
-title: Things
-description: Thing-a-day is my effort to do something creative every day. 
+title: Thing a Day
+description: My effort to do something creative every day
 layout: sidebar
 tags: main
 boxes:

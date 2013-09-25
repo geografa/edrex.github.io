@@ -25,8 +25,20 @@
         <div class="page-header">
           <h1 class="title">
             {{ page.title }} 
-            <small>{{ page.description }}</small>
+            <small>
+              <span class="tags">
+                {% for tag in page.tags %}
+                  <a class="tag label label-default" href="{% if site.taginfo[tag].url == nil %}/tags/#tag-{{ tag }}{% else %}{{ site.taginfo[tag].url }}{% endif %}"><i class="icon-{% if site.taginfo[tag].icon == nil %}tag{% else %}{{ site.taginfo[tag].icon }}{% endif %} icon-large"></i> {{tag}}</a>
+                {% endfor %}
+              </span>
+              <br>
+              {{ page.description }}
+            </small>
           </h1>
+          <h2 class="tags">
+          
+          </h2>
+
           <div class="clearfix"></div>
         </div>
         <div class="content">
