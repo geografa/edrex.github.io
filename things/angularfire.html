@@ -17,7 +17,23 @@ header: |
 <div ng-app="myapp">
 {% raw %}
   <div ng-controller="MyController">
-    <p>This dive uses Angular.js. You can check out the source on Github using the <i class="icon-code"></i> link above.</p>
+    <p>The app in this dive talks to a Firebase instance and renders using Angular.js.</p>
+
+    <p>I've built things with Angular before but this is my first dive into Firebase. Some of the characteristics which make it interesting are:</p>
+      
+    <dl>
+      <dt>NoBackend</dt>
+      <dd>It does both kinds of auth (Z and N!) so you can dispense with backend code entirely and write your app on the client. The only exception is a simple, flexible language for specifying authorization rules.</dd>
+    
+      <dt>Realtime sync</dt>
+      <dd>Data is synced automatically to connected clients when changes occur, enabling realtime updates in collaborative apps.</dd>
+    
+      <dt>Structured data</dt>
+      <dd>Data in Firebase is basically a tree of JSON.</dd>
+    </dl>      
+    
+    <p>There are several other backends which have similar characteristics, including the open source <a href="http://www.deployd.com/">deployd</a>, which I'll be exploring in a future dive.</p>
+    <p>You can check out the source on Github using the <i class="icon-code"></i> link above.</p>
   
     <h2>First things first</h2><div class="row">
       <div class="col-sm-6">
