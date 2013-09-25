@@ -7,7 +7,7 @@ layout: default
 
 
 {% for tag in site.tags %}
-<h2 id="tag-{{ tag[0] }}">{{ tag[0] }}</h2>
+<h2 id="tag-{{ tag[0] }}"><span class="tag label label-default"><i class="icon-tag icon-large"></i> {{tag[0]}}</span></h2>
 
 <ul>
 {% for p in tag[1] %}
@@ -16,7 +16,7 @@ layout: default
 </ul>
 {% endfor %}
 
-<h2 id="tag-{{ tag[0] }}">untagged</h2>
+<h2 id="tag-untagged"><span class="tag label label-default"><i class="icon-ban-circle icon-large"></i> untagged</span></h2>
 
 <ul>
 {% for p in site.posts %}{% if p.tags == empty %}
@@ -24,7 +24,7 @@ layout: default
 {% endif %}{% endfor %}
 </ul>
 
-<h2 id="tag-{{ tag[0] }}">non-main pages</h2>
+<h2 id="tag-untagged"><span class="tag label label-default"><i class="icon-frown icon-large"></i> orphan pages</span></h2>
 
 <ul>
     {% for post in site.pages %}{% unless post.tags contains "main" %}{% if post.url != '/' and post.title != null %}

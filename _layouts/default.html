@@ -28,7 +28,7 @@
             <small>
               <span class="tags">
                 {% for tag in page.tags %}
-                  <a class="tag label label-default" href="{% if site.taginfo[tag].url == nil %}/tags/#tag-{{ tag }}{% else %}{{ site.taginfo[tag].url }}{% endif %}"><i class="icon-{% if site.taginfo[tag].icon == nil %}tag{% else %}{{ site.taginfo[tag].icon }}{% endif %} icon-large"></i> {{tag}}</a>
+                  {% include tag.html tag=tag %}
                 {% endfor %}
               </span>
               <br>
