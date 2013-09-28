@@ -1,0 +1,35 @@
+---
+title: Thing a Day
+description: My effort to do something creative every day
+layout: sidebar
+tags: main
+permalink: things/
+boxes:
+  - title: Reminders
+    content: |
+      - Avoid a backlog of unstarted things. Instead try to keep each thing fresh and explore it right away.
+      - Keep it simple, avoiding process overhead and complexity. Get to the thing as directly as possible.
+  - title: Possible future topics
+    content: |
+       * microformats [1](http://microformats.org/wiki/semantic-xhtml)
+
+---
+
+
+{% for post in site.tags.things %}
+<div class="panel">
+  <h4 class="list-group-item-heading"><a href="{{ post.url }}">{{ post.title }}</a><small>
+{% if post.tags %}
+  <span class="tags">
+  {% for tag in post.tags %}
+    <a class="tag label label-default" href="/tags/#tag-{{ tag }}"><i class="icon-tags"></i> {{tag}}</a>
+  {% endfor %}
+    <span class="status label label-{% if post.status == 'done' %}success{% else %}warning{% endif %}"><i class="icon-status"></i> {{post.status}}</span>
+  </span>
+{% endif %}
+  <span class="date pull-right">{{ post.date | date_to_string }}</span></small></h4>
+{% if post.description %}
+  <p class="list-group-item-text">{{ post.description }}</p>
+{% endif %}
+</div>
+{% endfor %}
