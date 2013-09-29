@@ -12,7 +12,7 @@ header: |
   <script src='https://cdn.firebase.com/v0/firebase.js'></script>
   <script src='https://cdn.firebase.com/v0/firebase-simple-login.js'></script>
   <script src='https://cdn.firebase.com/libs/angularfire/0.3.0/angularfire.js'></script>
-  <script src='/javascripts/angfire-thing.js'></script>
+  <script src='/javascript/angfire-thing.js'></script>
 ---
 <div ng-app="myapp">
 {% raw %}
