@@ -23,3 +23,17 @@ ul.inline li {
   list-style: none;
   padding-right: .5em;
 }
+
+/*
+EmojiSymbols Font (c)blockworks - Kenichi Kaneko
+http://emojisymbols.com/
+*/
+@font-face {
+	font-family: "EmojiSymbols";
+	src: url('/font/EmojiSymbols-Regular.woff') format('woff');
+    text-decoration: none;
+	font-style: normal;
+}
+.emoji {
+	font-family: "EmojiSymbols";
+}
