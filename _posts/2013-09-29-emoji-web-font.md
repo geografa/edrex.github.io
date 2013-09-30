@@ -9,11 +9,13 @@ description: |
 layout: default
 ---
 
-Emoji are pictograph characters used in chat especially in Asia. Emoji are Unicode characters, opening the possibility of our written language mixing in a large library of pictographs, an incredibly exciting prospect for a visual thinker like myself.
+Emoji are pictograph characters used in chat especially in Asia. They are also are Unicode characters, opening the possibility of our written language mixing in a large library of pictographs, an incredibly exciting prospect for a visual thinker like myself.
 
-Unfortunately only a few emoji-supporting fonts are available, primarily those included in messaging applications from Apple, Microsoft, and Google. For the web, the only free choice I am aware of is [Emoji Symbols](http://emojisymbols.com/) from Japanese font designer [blockworks](http://blockworks.jp/). The font is available in woff format ([supported](http://caniuse.com/#feat=woff) by nearly all browsers).
+A few emoji-supporting fonts are available, such as those included with messaging applications from Apple, Microsoft, and Google. For the web, [Emoji Symbols](http://emojisymbols.com/) from Japanese font designer [blockworks](http://blockworks.jp/) is a free option. The font is woff format ([supported](http://caniuse.com/#feat=woff) by nearly all browsers) and weighs in around 280k compressed. 
 
-Hopefully in the near future more free emoji fonts will be available.
+
+
+
 
 #### Example
 
@@ -43,6 +45,10 @@ http://emojisymbols.com/
 Support [the text codes](http://www.emoji-cheat-sheet.com/) used on Github etc.
 
 ## References
+
+<http://www.typophile.com/node/101810>
+
+Symbola font from <http://users.teilar.gr/~g1951d/> contains most (all?) of the emoji
 
 [iemoji.com](http://www.iemoji.com/browse/emoji/category) offers a sort of dictionary of the meanings of each emoji.
 
