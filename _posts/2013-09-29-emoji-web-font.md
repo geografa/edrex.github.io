@@ -1,5 +1,5 @@
 ---
-title: Using Emoji on Your Sites
+title: Emoji on Webpages
 published: true
 tags:
 - things
@@ -9,11 +9,13 @@ description: |
 layout: default
 ---
 
-Windows, iOS/OSX, and Android all come with an Emoji font for use in chat programs, but these fonts aren't licensed for use on web pages. For web use it is necessary to use a font for which you have an appropriate license.
+Emoji are pictograph characters used in chat especially in Asia. Since emoji are Unicode characters they can be sent over any text channel. Because Unicode is so universal, this opens the possibility of our written mixing in a large library of pictographs, which is incredibly exciting.
 
-[Emoji Symbols](http://emojisymbols.com/) from Japanese font designer [blockworks](http://blockworks.jp/) offers a free license for web site use. The font is available in woff format, which [is supported](http://caniuse.com/#feat=woff) by every major browser except the default Android browser (mostly olders smartphones running Android 2.3). The font file size is about 280k.
+Unfortunately only a few emoji-supporting fonts are available, primarily those included in messaging applications from Apple, Microsoft, and Google. I've equiped my blog with an emoji font, [Emoji Symbols](http://emojisymbols.com/) from Japanese font designer [blockworks](http://blockworks.jp/) who offers a free license for web use. The font is available in woff format, which [is supported](http://caniuse.com/#feat=woff) by every major browser except pre-chrome Android.
 
-Here is a usage example:
+Hopefully in the near future more free emoji fonts will be available.
+
+#### Example
 
 ```css
 /*
@@ -36,7 +38,18 @@ http://emojisymbols.com/
 <span class="emoji">&#x1F520;</span>
 ```
 
-Following is a list of all the emoji characters supported by the font, which I believe is the same set as the Apple font.
+## Next step
+
+Support [the text codes](http://www.emoji-cheat-sheet.com/) used on Github etc.
+
+## References
+
+[iemoji.com](http://www.iemoji.com/browse/emoji/category) offers a sort of dictionary of the meanings of each emoji.
+
+Windows, iOS/OSX, and Android all come with an Emoji font for use in chat programs, but these fonts aren't licensed for use on web pages. For web use it is necessary to use a font for which you have an appropriate license.
+
+
+## List of emoji characters
 
 <h1 class="emoji">
 &#x1F520;
