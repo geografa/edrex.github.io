@@ -4,7 +4,7 @@ published: true
 tags: 
   - things
 status: done
-description: "Support for emoji unicode characters on the web\n"
+description: "Using emoji on the web"
 layout: default
 ---
 
