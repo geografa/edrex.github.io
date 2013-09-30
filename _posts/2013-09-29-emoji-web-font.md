@@ -9,9 +9,9 @@ description: |
 layout: default
 ---
 
-Emoji are pictograph characters used in chat especially in Asia. Since emoji are Unicode characters they can be sent over any text channel. Because Unicode is so universal, this opens the possibility of our written mixing in a large library of pictographs, which is incredibly exciting.
+Emoji are pictograph characters used in chat especially in Asia. Emoji are Unicode characters, opening the possibility of our written language mixing in a large library of pictographs, an incredibly exciting prospect for a visual thinker like myself.
 
-Unfortunately only a few emoji-supporting fonts are available, primarily those included in messaging applications from Apple, Microsoft, and Google. I've equiped my blog with an emoji font, [Emoji Symbols](http://emojisymbols.com/) from Japanese font designer [blockworks](http://blockworks.jp/) who offers a free license for web use. The font is available in woff format, which [is supported](http://caniuse.com/#feat=woff) by every major browser except pre-chrome Android.
+Unfortunately only a few emoji-supporting fonts are available, primarily those included in messaging applications from Apple, Microsoft, and Google. For the web, the only free choice I am aware of is [Emoji Symbols](http://emojisymbols.com/) from Japanese font designer [blockworks](http://blockworks.jp/). The font is available in woff format ([supported](http://caniuse.com/#feat=woff) by nearly all browsers).
 
 Hopefully in the near future more free emoji fonts will be available.
 
