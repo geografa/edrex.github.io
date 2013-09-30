@@ -1,11 +1,19 @@
 ---
 published: true
-title: Metabout this site
+title: About This Site
 layout: default
-permalink: metabout/
+permalink: README/
 ---
 
 This site is the prototype from which I spin off features for my [reusable Jekyll template](https://github.com/edrex/reusable-jekyll-site). Check it out for turbo boost quick start on creating static sites for Github pages!
+
+## Backlog
+
+Navigation UX optimization:
+ - flow diagram
+   - main page, then out (remove global links to about, tags)
+   - optimize nav on main page
+Favicon
 
 ## Research 
 
