@@ -1,15 +1,14 @@
 ---
 title: Emoji on Webpages
 published: true
-tags:
-- things
-status: done  
-description: |
-  Support for emoji unicode characters on the web
+tags: 
+  - things
+status: done
+description: "Support for emoji unicode characters on the web\n"
 layout: default
 ---
 
-Emoji are pictograph characters used in chat especially in Asia. They are also are Unicode characters, opening the possibility of our written language mixing in a large library of pictographs, an incredibly exciting prospect for a visual thinker like myself.
+Emoji are pictograph characters used in chat especially in Asia. They are also Unicode characters, opening the possibility of our written language mixing in a large library of pictographs, an incredibly exciting prospect for a visual thinker like myself.
 
 A few emoji-supporting fonts are available, such as those included with messaging applications from Apple, Microsoft, and Google. For the web, [Emoji Symbols](http://emojisymbols.com/) from Japanese font designer [blockworks](http://blockworks.jp/) is a free option. The font is woff format ([supported](http://caniuse.com/#feat=woff) by nearly all browsers) and weighs in around 280k compressed. 
 
