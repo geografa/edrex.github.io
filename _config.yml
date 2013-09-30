@@ -1,6 +1,7 @@
 name: "French Pressicus-Technicalus"
 subtitle: "the common cafe nerd"
 signature: "Eric Drechsel, Investigative Nerd"
+siteurl: "http://eric.pdxhub.org"
 taginfo:
   main:
     icon: "home"
@@ -19,6 +20,6 @@ github:
   repo: "edrex/edrex.github.io"
   branch: "master"
 prose:
-  siteurl: "http://edrex.github.io"
-  relativeLinks: "http://edrex.github.io/links.json"
+  siteurl: "http://eric.pdxhub.org"
+  relativeLinks: "http://eric.pdxhub.org/links.json"
   media: "media"
