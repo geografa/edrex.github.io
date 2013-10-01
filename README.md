@@ -1,6 +1,7 @@
 ---
 published: true
 title: About This Site
+tags: main
 layout: default
 permalink: README/
 ---
