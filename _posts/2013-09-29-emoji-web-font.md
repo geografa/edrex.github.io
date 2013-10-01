@@ -4,11 +4,11 @@ published: true
 tags: 
   - things
 status: done
-description: "Using emoji on the web"
+description: "<span class='emoji'>🌊 🌟 🍉 🍻 🐌 🐗 👾 🐛 🐧</span>"
 layout: default
 ---
 
-Emoji are pictograph characters used in chat especially in Asia. They are also Unicode characters, opening the possibility of our written language mixing in a large library of pictographs, an incredibly exciting prospect for a visual thinker like myself.
+Emoji are pictograph characters with <a href="http://www.iemoji.com/browse/emoji/category">well-defined conventional meanings</a> used for messaging especially in Asia. They are also part of the <a href="http://en.wikipedia.org/wiki/Emoji#In_the_Unicode_standard">Unicode standard</a>, opening the possibility of using them all over the Internet, an incredibly exciting prospect for a visual thinker like myself. 
 
 A few emoji-supporting fonts are available, such as those included with messaging applications from Apple, Microsoft, and Google. For the web, [Emoji Symbols](http://emojisymbols.com/) from Japanese font designer [blockworks](http://blockworks.jp/) is a free option. The font is woff format ([supported](http://caniuse.com/#feat=woff) by nearly all browsers) and weighs in around 280k compressed. 
 
@@ -45,9 +45,9 @@ Support [the text codes](http://www.emoji-cheat-sheet.com/) used on Github etc.
 
 ## References
 
-<http://www.typophile.com/node/101810>
+[Forum thread](http://www.typophile.com/node/101810) discussing emoji fonts at length.
 
-Symbola font from <http://users.teilar.gr/~g1951d/> contains most (all?) of the emoji
+[Symbola font](http://users.teilar.gr/~g1951d/) contains most (all?) of the emoji, as well as many, many other symbols and is permissively licensed.
 
 [iemoji.com](http://www.iemoji.com/browse/emoji/category) offers a sort of dictionary of the meanings of each emoji.
 
