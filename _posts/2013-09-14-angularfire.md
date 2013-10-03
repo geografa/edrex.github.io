@@ -1,6 +1,7 @@
 ---
 title: Firebase + Angular Dive
 published: true
+permalink: things/angularfire
 tags:
 - things
 status: done
