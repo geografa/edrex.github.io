@@ -8,6 +8,7 @@ permalink: README/
 
 This site is the prototype from which I spin off features for my [reusable Jekyll template](https://github.com/edrex/reusable-jekyll-site). Check it out for turbo boost quick start on creating static sites for Github pages!
 
+
 ## Backlog
 
 Navigation UX optimization:
