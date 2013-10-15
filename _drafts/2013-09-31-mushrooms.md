@@ -1,6 +1,5 @@
 ---
 title: Mushroom stuff
-published: false
 tags:
 - things
 description: |

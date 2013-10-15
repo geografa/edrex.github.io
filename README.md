@@ -1,6 +1,6 @@
 ---
 published: true
-title: About This Site
+title: README
 tags: main
 layout: default
 permalink: README/
@@ -11,11 +11,7 @@ This site is the prototype from which I spin off features for my [reusable Jekyl
 
 ## Backlog
 
-Navigation UX optimization:
- - flow diagram
-   - main page, then out (remove global links to about, tags)
-   - optimize nav on main page
-Favicon
+
 
 ## Research 
 

@@ -1,6 +1,5 @@
 ---
 title: FireSpaces
-published: false
 tags:
 - things
 status: next
