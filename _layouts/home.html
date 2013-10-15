@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div id="home" class="row">
+  <div class="content">
+    {{ content }}
+  </div>
+  <div class="col-sm-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title">Latest posts</h2>
+      </div>
+      <div class="panel-body">
+      {% for post in site.posts limit:5 %}
+        {% include post_summary.html post=post %}
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title">Pages</h2>
+      </div>
+      <div class="panel-body">
+        {% for post in site.pages %}{% if post.tags contains "main" and post.url != page.url and post.title != null %}
+          {% include post_summary.html post=post hide_tags=true%}
+        {% endif %}{% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="pull-right">{% if site.signature %}<i>{{ site.signature }}</i>{% endif %}{% if page.date %}, <span class="page-date">{{ page.date | date_to_string }}</span>{% endif %}</div>
