@@ -1,16 +1,29 @@
-<ul class="nav nav-pills pull-right">
-    <li>
-      <a href="/" title="{{ site.name }}"><span class="icon-home"></span></a>
-    </li>
-    <li>
-      <a href="/tags/"><span class="icon-tags"></span></a>
-    </li>
-    <li>
-      <a href="/about/" title="About Me"><span class="icon-user"></span></a>
-    </li>
-  {% if page.path and site.github.repo and site.github.branch %}
-    <li>
-      <a href="http://prose.io/#{{ site.github.repo }}/edit/{{ site.github.branch }}/{{ page.path }}"><span class="icon-edit"></span></a>
-    </li>
-  {% endif %}
-</ul>
+<nav class="navbar navbar-default" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    
+    <a class="navbar-brand" href="/" title="French Pressicus Technicalus"><i class="icon-coffee"></i> FPT</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-main-collapse">
+
+    {% if page.path and site.github.repo and site.github.branch %}
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a href="/about/"><span class="icon-user"></span> bio</a>
+      </li>
+      <li>
+        <a href="http://prose.io/#{{ site.github.repo }}/edit/{{ site.github.branch }}/{{ page.path }}"><span class="icon-code"></span> source</a>
+      </li>
+    </ul>
+    {% endif %}
+
+  </div>
+</nav>

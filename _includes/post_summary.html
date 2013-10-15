@@ -1,0 +1,17 @@
+<div class="post-summary">
+<div>
+  {% if include.post.date %}<span class="label label-info">{{ include.post.date | date_to_string }}</span>{% endif %}
+  {% unless include.hide_tags %}
+    {% for tag in include.post.tags %}
+      {% include tag.html tag=tag %}
+    {% endfor %}
+  {% endunless %}
+</div>
+<h4 ><a href="{{ include.post.url }}">{{ include.post.title }}</a>
+</h4>
+{% if include.post.description %}
+<p class="description">{{ include.post.description }}</p>
+{% endif %}
+<hr></hr>
+</div>
+

@@ -1,17 +1,12 @@
+.page-header img.avatar {
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 19px;
+}
+
 a {
   cursor: pointer;
-}
-
-.avatar {
-	margin-right: 9px;
-  margin-top: 15px;
-}
-.page-header .page-date {
-	font-size: .5em;
-}
-
-.title .tags {
-	margin-left:1em;
 }
 
 .icon-bar {

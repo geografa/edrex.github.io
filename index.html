@@ -1,22 +1,6 @@
 ---
-layout: default
+layout: home
 title: "French Pressicus-Technicalus"
 description: the common cafe nerd
 ---
 
-<div id="home" class="row">
-  <div class="col-sm-9">
-    {% include post_list.html posts=site.posts %}
-  </div>
-  <div class="col-sm-3">
-    <ul class="nav nav-pills nav-stacked">
-    {% for post in site.pages %}{% if post.tags contains "main" and post.url != page.url and post.title != null %}
-      <li>
-        <a href="{{ post.url }}" title="{{ post.description | strip_html }}">
-          {% if post.icon %}<i class="icon-{{ post.icon }}"></i>{% endif %} {{ post.title }}
-        </a>
-      </li>
-    {% endif %}{% endfor %}
-    </ul>
-  </div>
-</div>

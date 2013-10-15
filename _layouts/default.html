@@ -23,23 +23,21 @@
     <body>
       <div class="container site">
         {% include menu.html %}
-        <a href="/about/" title="{{ site.name }}"><img class="avatar pull-left img-rounded" src="http://www.gravatar.com/avatar/fbecd2cf5679e59a46df57e550fa6e51.jpg?s=64&r=pg"></img></a>
         <div class="page-header">
+          <p class="page-info pull-right">
+          {% if page.date %}
+            <span class="label label-info date">{{ page.date | date_to_string }}</span>
+          {% endif %}
+          {% for tag in page.tags %}
+            <a class="label label-default tag"  href="{% if site.taginfo[tag].url == nil %}/tags/#tag-{{ tag }}{% else %}{{ site.taginfo[tag].url }}{% endif %}">{{tag}}</a>
+          {% endfor %}
+          </p>
           <h1 class="title">
             {{ page.title }} 
-            <small>
-              <span class="tags">
-                {% for tag in page.tags %}
-                  {% include tag.html tag=tag %}
-                {% endfor %}
-              </span>
-              <br>
-              {{ page.description }}
-            </small>
           </h1>
-          <div class="clearfix"></div>
         </div>
-        <div class="content">
+
+        <div class="page-body">
           {{ content }}
         </div>
         </div>
