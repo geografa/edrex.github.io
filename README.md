@@ -1,7 +1,6 @@
 ---
 published: true
 title: README
-tags: main
 layout: default
 permalink: README/
 ---
