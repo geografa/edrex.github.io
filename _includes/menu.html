@@ -8,7 +8,7 @@
       <span class="icon-bar"></span>
     </button>
     
-    <a class="navbar-brand" href="/" title="French Pressicus Technicalus"><i class="icon-coffee"></i> FPT</a>
+    <a class="navbar-brand" href="/" title="{{ site.description }}"><i class="icon-coffee"></i> {{ site.name }}</a>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
@@ -20,7 +20,7 @@
         <a href="/about/"><span class="icon-user"></span> bio</a>
       </li>
       <li>
-        <a href="http://prose.io/#{{ site.github.repo }}/edit/{{ site.github.branch }}/{{ page.path }}"><span class="icon-code"></span> source</a>
+        <a href="http://prose.io/#{{ site.github.repo }}/edit/{{ site.github.branch }}/{{ page.path }}"><span class="icon-code"></span> edit</a>
       </li>
     </ul>
     {% endif %}
