@@ -1,6 +1,9 @@
 ---
 published: true
 title: Annotating slid.es decks with SVG
+tags:
+  - things
+status: done
 layout: post
 description: an experiment with reveal.io
 ---

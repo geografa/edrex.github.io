@@ -4,13 +4,21 @@ published: true
 tags:
 - things
 - github
-status: next
-description: Major Github APIfu
+status: idea
+description: Github APIfu
 layout: default
 permalink: things/in-page-editor
 ---
 
-Workflow:
+## Idea
+
+In-page content editor using github to store changes
+
+ - Open a pull request if you are a new contributor
+ - Render on the client side
+ - Bonus points for providing in-page UI for pull requests (notifications, seeing different versions, etc)
+
+## Workflow
 
 ```
 click edit
@@ -35,5 +43,5 @@ http://codemirror.net/index.html
 
 ## References
 
-<http://developer.github.com/v3/pulls/#create-a-pull-request>
-<https://github.com/philschatz/octokit.js>
+ - <http://developer.github.com/v3/pulls/#create-a-pull-request>
+ - <https://github.com/philschatz/octokit.js>
