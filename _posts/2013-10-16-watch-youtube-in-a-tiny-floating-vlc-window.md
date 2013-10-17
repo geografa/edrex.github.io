@@ -1,9 +1,10 @@
 ---
 title: Youtube in a Floating Window
-tags:
-- journal
+tags: 
+  - journal
 layout: default
 description: with VLC
+published: true
 ---
 
 <div class="row">
@@ -23,5 +24,4 @@ To have a floating video window:
  * Prefs > Show Basic > Interface > Uncheck "Show video within the main window"
  * Video > Uncheck "Window decorations"
 
-Viola!
-
+Voila!
