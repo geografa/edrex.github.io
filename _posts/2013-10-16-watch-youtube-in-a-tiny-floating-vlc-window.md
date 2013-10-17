@@ -1,7 +1,7 @@
 ---
 title: Youtube in a Floating Window
 tags: 
-  - journal
+  - how!
 layout: default
 description: with VLC
 published: true
