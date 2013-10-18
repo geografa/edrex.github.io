@@ -23,3 +23,11 @@ prose:
   siteurl: "http://eric.pdxhub.org"
   relativeLinks: "http://eric.pdxhub.org/links.json"
   media: "media"
+exclude:
+- "cache"
+- "node_modules"
+- "*.less"
+- "CNAME"
+- "Gruntfile.js"
+- "bower.json"
+- "package.json"

@@ -8,7 +8,7 @@ layout: default
 permalink: dis-or-dat/
 header: |
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
-  <script type="text/javascript" src="/javascript/octokit.js"></script>
+  <script type="text/javascript" src="/assets/javascript/octokit.js"></script>
   <script type="text/javascript">
   var projects = [
     {"user": "ajaxorg", "project": "node-github"},

@@ -1,0 +1,16 @@
+{
+  "name": "mysite",
+  "version": "0.0.1",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-copy": "*",
+    "bower": "*",
+    "grunt-exec": "*"
+  },
+  "engines": {
+    "npm": "1.2.x"
+  }
+}
