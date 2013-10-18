@@ -10,7 +10,8 @@ This site is the prototype from which I spin off features for my [reusable Jekyl
 
 ## Backlog
 
-
+ - top-level categories
+ - Per-category icons, rendered in page listings
 
 ## Research 
 
