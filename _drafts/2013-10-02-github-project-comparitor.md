@@ -40,7 +40,15 @@ Give it a list of projects and fields to display, and it will populate an intera
 Given a list of Github projects `[{user:'edrex', ...}]`, show me a sortable table with interesting attributes (Name, star count, watch count, fork count)
 It's often useful to be able to list multiple github projects
 
+promises
+
+- <http://api.jquery.com/category/deferred-object/>
+- <http://documentup.com/kriskowal/q/#tutorial/combination>
+- <http://stackoverflow.com/questions/18954894/make-jquery-deferred-promises-and-angularjs-q-deferred-promises-compatible>
+- <http://docs.angularjs.org/api/ng.$q>
+
 ## References
 
+- <https://github.com/philschatz/octokit.js>
 - <http://jsfiddle.net/vojtajina/js64b/14/>
 - <http://api.jquery.com/jQuery.ajax/>
