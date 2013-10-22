@@ -1,28 +1,34 @@
 ---
 published: true
 title: README
+description: about this site
 layout: default
 permalink: README/
 ---
 
-This site is the prototype from which I spin off features for my [reusable Jekyll template](https://github.com/edrex/reusable-jekyll-site). Check it out for turbo boost quick start on creating static sites for Github pages!
+The current version this site (my homepage) is based on [reusable Jekyll template](https://github.com/edrex/reusable-jekyll-site), a quick-start skeleton for Github Pages with Bootstrap 3 and some [Prose](http://prose.io/) integrations. 
+
+**However:** I  am experimenting with swapping out parts of this stack
+
+ - (Bootstrap → Foundation),
+ - (Jekyll → Docpad),
+ - (_ → Grunt)
+
+This research will likely lead to a new release of the site, along with a new skeleton.
+
+For upcoming/planned/WIP changes, see [TODO.md](/TODO) [meta: relative links in Jekyll are super awkward]
 
 
-## Backlog
+## Credits
 
- - top-level categories
- - Per-category icons, rendered in page listings
+This site is built using the following fine components and languages: 
 
-## Research 
+ * [Git](http://git-scm.com/)
+ * [Markdown](http://daringfireball.net/projects/markdown/) (specifically [GFM](http://github.github.com/github-flavored-markdown/) via [Redcarpet](https://github.com/vmg/redcarpet))
+ * [YAML](http://yaml.org/)
+ * [Bootstrap](http://getbootstrap.com/)
+ * [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
+ * [Emoji Symbols](http://emojisymbols.com/)
+ * [Jekyll](http://jekyllrb.com/docs/home/)
+ * [Prose](http://prose.io/)
 
-Useful reading: 
-
- * [stacking order for responsive grid collapse](http://stackoverflow.com/questions/12226859/is-it-possible-to-choose-the-stacking-order-of-spans)
- * [slid.es](https://slid.es)
-
-
-## Working with this site:
-
- * [jekyll](http://jekyllrb.com/docs/home/)
- * [prose.io](http://prose.io/)
- 
