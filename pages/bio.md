@@ -1,8 +1,8 @@
 ---
-title: About
-description: Me
+title: Bio
+description: Eric's Vital Statistics
 published: true
-permalink: about/
+permalink: bio/
 layout: sidebar
 boxes:
 - title: Social profiles
@@ -25,13 +25,16 @@ boxes:
     * [Drupal](http://drupal.org/user/14325 "I don't do Drupal stuff anymore :D")
 ---
 
-One day I will analyze all the things. Until then, [check out my Vizify](https://www.vizify.com/eric-drechsel/).
+## Keywords
 
-I maintain [PDXHub tech coop](http://pdxhub.org)'s servers and web apps in support of other local organizers, and am a founding member of [Activate](http://activatehub.org/). I'm also active in many open source software, civic, and bicycling communities.
+ - curious
+ - capable
+ - compassionate
+
+## Summary
+
+I maintain [PDXHub's services](http://wiki.pdxhub.org/ops) in support of other local organizers, and am a founding member of [Activate](http://activatehub.org/). I'm also active in many open source software, civic, and bicycling communities.
 
 I hold a BS in [Mathematics](http://math.pdx.edu/) and [Physics](http://physics.pdx.edu/) minor from [Portland State University](http://pdx.edu/). In my free time I am continuing my studies in physics, data sciences, and natural history.
 
-### Consultancy
-
- * [PDXHub Tech Collective](http://wiki.pdxhub.org/)
- * [Network Operations](http://wiki.pdxhub.org/ops)
+One day I will analyze all the things. Until then, [check out my Vizify](https://www.vizify.com/eric-drechsel/).
