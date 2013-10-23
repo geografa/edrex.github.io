@@ -1,7 +1,7 @@
 ---
 title: Media Inbox
 tags: main
-description: Work I want to check out, often recommended in conversations.
+description: Work I want to check out, often recommended in conversation.
 layout: default
 permalink: media/inbox/
 ---

@@ -1,0 +1,14 @@
+---
+layout: default
+icon: time
+title: Latest Posts
+permalink: latest/
+---
+
+  <div class="post-list">
+  {% for post in site.posts limit:12 %}
+    <div class=" ">  
+    {% include post_summary.html post=post %}
+  </div>
+  {% endfor %}
+  </div>

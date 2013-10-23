@@ -1,6 +1,7 @@
 ---
 published: true
 title: README
+tags: main
 description: about this site
 layout: default
 permalink: README/
@@ -16,7 +17,7 @@ The current version this site (my homepage) is based on [reusable Jekyll templat
 
 This research will likely lead to a new release of the site, along with a new skeleton.
 
-For planned/WIP changes, see [TODO.md](/TODO) [meta: relative links in Jekyll are super awkward]
+For planned/WIP changes, see [TODO.md](/TODO).
 
 
 ## Credits
