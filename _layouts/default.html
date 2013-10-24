@@ -29,7 +29,9 @@
         {% include analytics.html %}
     </head>
     <body>
-          {% include menu.html %}
+      {% unless page.hidenavbar %}
+          {% include navbar.html %}
+      {% endunless %}
       <div class="container site">
         <div class="page-header">
           <p class="page-info pull-right">
