@@ -4,6 +4,7 @@ description: Eric's Vital Statistics
 published: true
 permalink: bio/
 layout: sidebar
+tags: main
 boxes:
 - title: Social profiles
   content: |
@@ -30,8 +31,6 @@ boxes:
  - curious
  - capable
  - compassionate
-
-## Summary
 
 I maintain [PDXHub's services](http://wiki.pdxhub.org/ops) in support of other local organizers, and am a founding member of [Activate](http://activatehub.org/). I'm also active in many open source software, civic, and bicycling communities.
 

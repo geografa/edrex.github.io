@@ -41,7 +41,7 @@
           {% endfor %}
           </p>
           <h1 class="title">
-            {{ page.title }}
+            {% include post_icon.html post=page %} {{ page.title }}
             <small>{{ page.description }}</small> 
           </h1>
         </div>

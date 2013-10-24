@@ -31,13 +31,6 @@ boxes:
       - [Zurb Foundation](http://foundation.zurb.com/)
 ---
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h2 class="panel-title">Things</h2>
-  </div>
-  <div class="panel-body">
-  {% for post in site.tags.things %}
-    {% include post_summary.html post=post %}
-  {% endfor %}
-  </div>
-</div>
+{% for post in site.tags.things %}
+  {% include post_summary.html post=post %}
+{% endfor %}

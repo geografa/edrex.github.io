@@ -2,6 +2,8 @@ name: "French Press"
 description: "diary of a common cafe nerd"
 signature: "Eric Drechsel, Investigative Nerd"
 siteurl: "http://eric.pdxhub.org"
+defaults:
+  icon: circle
 taginfo:
   main:
     icon: "home"
