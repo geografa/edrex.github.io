@@ -22,7 +22,7 @@ grunt.initConfig({
     },
     bootstrap: {
       files: {
-        'assets/js/bootstrap.min.js': [bowerpath+'bootstrap/js/tooltip.js', bowerpath+'bootstrap/js/dropdown.js']
+        'assets/js/bootstrap.min.js': [bowerpath+'bootstrap/js/tooltip.js', bowerpath+'bootstrap/js/dropdown.js', bowerpath+'bootstrap/js/transitions.js', bowerpath+'bootstrap/js/collapse.js']
       }
     }
   },
