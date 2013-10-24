@@ -39,6 +39,8 @@
           {% for tag in page.tags %}
             <a class="label label-default tag"  href="{% if site.taginfo[tag].url == nil %}/tags/#tag-{{ tag }}{% else %}{{ site.taginfo[tag].url }}{% endif %}">{{tag}}</a>
           {% endfor %}
+            <a class="label label-warning" href="http://prose.io/#{{ site.github.repo }}/edit/{{ site.github.branch }}/{{ page.path }}"><span class="icon-code"></span> edit</a>
+
           </p>
           <h1 class="title">
             {% include post_icon.html post=page %} {{ page.title }}
