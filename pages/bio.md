@@ -9,12 +9,16 @@ tags: main
 boxes:
 - title: Social profiles
   content: |
-    * [Github](http://github.com/edrex/) 
-    * [Twitter](http://twitter.com/edrex/) 
-    * [Foursquare](https://foursquare.com/edrex) 
-    * [FB](http://facebook.com/ericdrex/) 
-    * [LinkedIn](http://www.linkedin.com/pub/eric-drechsel/14/2b6/b67) 
-    * [Stack Overflow](http://stackoverflow.com/users/114581)
+      * [Google+](https://plus.google.com/112296035418181656313)
+      * [Twitter](http://twitter.com/edrex/) 
+      * [Foursquare](https://foursquare.com/edrex) 
+      * [FB](http://facebook.com/ericdrex/) 
+
+- title: Professional
+  content: |
+      * [Github](http://github.com/edrex/) 
+      * [Stack Overflow](http://stackoverflow.com/users/114581)
+      * [LinkedIn](http://www.linkedin.com/pub/eric-drechsel/14/2b6/b67) 
 - title: Resume
   content: |
     * [HTML](http://erics-blog.pdxhub.org/pages/eric_drechsel_resume.html)
@@ -26,6 +30,9 @@ boxes:
     * [IRC](irc://irc.freenode.net/#pdxtech "me llamo edrex")
     * [Drupal](http://drupal.org/user/14325 "I don't do Drupal stuff anymore :D")
 ---
+
+<img class="img-rounded" src="http://www.gravatar.com/avatar/9fe1649090216341429d39f2425a7d5c.png">
+
 
 ## Keywords
 
