@@ -5,6 +5,7 @@ tags:
 layout: default
 description: with VLC
 published: true
+icon: laptop
 ---
 
 <div class="row">

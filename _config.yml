@@ -11,9 +11,6 @@ taginfo:
   things:
     icon: "gift"
     url: "/things"
-  done:
-    icon: "gift"
-    url: "/things"
 pygments: true
 permalink: "pretty"
 markdown: "redcarpet"

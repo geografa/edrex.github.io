@@ -5,6 +5,7 @@ tags:
   - things
 status: done
 description: "<span class='emoji'>🌊 🌟 🍉 🍻 🐌 🐗 👾 🐛 🐧</span>"
+icon: smile-o
 layout: default
 ---
 

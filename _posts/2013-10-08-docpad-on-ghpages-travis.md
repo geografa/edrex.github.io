@@ -8,13 +8,14 @@ tags:
 - travis
 description: Continuous integration for artifact generation
 status: next
+icon: cogs
 layout: default
 permalink: docpad-ghpages-travis-ci/
 ---
 
 ## Background
 
-#### Conclusions after creating a few sites with Github Pages' stock Jekyll compiler <a href="#" rel="tooltip" data-placement="bottom" class="icon-asterisk" title="As distinct from Jekyll itself, which can be extended by plugins."></a>
+#### Conclusions after creating a few sites with Github Pages' stock Jekyll compiler <a href="#" rel="tooltip" data-placement="bottom" class="fa fa-asterisk" title="As distinct from Jekyll itself, which can be extended by plugins."></a>
 
  1. *Automatically recompiles are darn convenient.*
  2. *Constraints can be liberating*. **However**,

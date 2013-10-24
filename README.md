@@ -3,6 +3,7 @@ published: true
 title: README
 tags: main
 description: about this site
+icon: file-text
 layout: default
 permalink: README/
 ---

@@ -3,6 +3,7 @@ title: Bio
 description: Eric's Vital Statistics
 published: true
 permalink: bio/
+icon: user
 layout: sidebar
 tags: main
 boxes:

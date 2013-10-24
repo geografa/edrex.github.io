@@ -1,13 +1,14 @@
 ---
 title: Zurb Foundation
 published: true
+icon: building
 tags:
 - things
 - github
 status: idea
 description: Switching over to Zurb Foundation via Grunt.js
 layout: default
-permalink: things/in-page-editor
+permalink: things/foundation
 ---
 
 Whereas Bootstrap is somewhat opinionated about style, which leads to lots of boring-looking websites, Foundation components provide behavior and structure, which you can style however you want. 

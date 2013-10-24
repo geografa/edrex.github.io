@@ -1,5 +1,6 @@
 ---
 published: true
+icon: check-square-o
 tags:
 - journal
 layout: default

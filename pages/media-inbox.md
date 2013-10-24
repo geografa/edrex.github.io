@@ -4,6 +4,7 @@ tags: main
 description: Work I want to check out, often recommended in conversation.
 layout: default
 permalink: media/inbox/
+icon: book
 ---
 
 ## Comics/Art

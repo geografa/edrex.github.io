@@ -2,6 +2,7 @@
 published: true
 title: "Image URLs for Picasaweb, Google+, and Drive Uploads"
 layout: post
+icon: picture
 description: Mapping a maze of ornately inlaid brick walls
 ---
 

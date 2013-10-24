@@ -6,6 +6,7 @@ tags:
 - github
 status: idea
 description: Github APIfu
+icon: code
 layout: default
 permalink: things/in-page-editor
 ---

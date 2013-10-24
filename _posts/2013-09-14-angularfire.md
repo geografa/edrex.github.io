@@ -7,6 +7,7 @@ tags:
 status: done
 description: |
   Using <a href="http://angularfire.com/">Angularfire</a>
+icon: hdd
 layout: default
 header: |
   <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.1.5/angular.js'></script>
@@ -34,7 +35,7 @@ header: |
     </dl>      
     
     <p>There are several other backends which have similar characteristics, including the open source <a href="http://www.deployd.com/">deployd</a>, which I'll be exploring in a future dive.</p>
-    <p>You can check out the source on Github using the <i class="icon-code"></i> link above.</p>
+    <p>You can check out the source on Github using the edit link above.</p>
   
     <h2>First things first</h2><div class="row">
       <div class="col-sm-6">
@@ -45,7 +46,7 @@ header: |
       <div class="col-sm-6">
         <div id="messages" class="panel panel-default">
           <div class="panel-body">
-            <div ng-repeat="msg in messages"><em><i class="icon-{{msg.provider}}"></i> {{msg.name}}</em>: {{msg.text}}</div>
+            <div ng-repeat="msg in messages"><em><i class="fa-{{msg.provider}}"></i> {{msg.name}}</em>: {{msg.text}}</div>
           </div>
         </div>
       </div>
@@ -59,7 +60,7 @@ header: |
       <div class="col-sm-6">
         <div class="alert alert-warning" ng-hide="user"><p>Sign in with  <a ng-click="login('twitter')">Twitter</a> or <a ng-click="login('github')">Github</a>.</p></div>
         <div class="alert alert-success" ng-show="user">
-          You are signed in as <i class="icon-{{user.provider}}"> {{user.name}}</i> | <a ng-click="logout()">Sign out</a>
+          You are signed in as <i class="fa-{{user.provider}}"> {{user.name}}</i> | <a ng-click="logout()">Sign out</a>
         </div>
       </div>
     </div>
@@ -85,7 +86,7 @@ header: |
       <div class="col-sm-6">
         <div id="messages" class="panel panel-default">
           <div class="panel-body">
-            <div ng-repeat="msg in messages"><em><i class="icon-{{msg.provider}}"></i> {{msg.name}}</em>: {{msg.text}}</div>
+            <div ng-repeat="msg in messages"><em><i class="fa-{{msg.provider}}"></i> {{msg.name}}</em>: {{msg.text}}</div>
           </div>
           <div class="panel-footer">
             <form class="form-inline" role="form">
